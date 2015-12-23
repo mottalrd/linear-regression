@@ -41,10 +41,3 @@ class LeastSquares(LinearRegression):
 
         self.beta = np.linalg.inv(np.dot(self.x.T, self.x)).dot(self.x.T).dot(y)
 
-
-class GradientDescent(LinearRegression):
-    def predict(self, X):
-        return []
-
-    def fit(self, X, y):
-        return []
